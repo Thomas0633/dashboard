@@ -1,0 +1,47 @@
+%position-absolute {
+  position: absolute;
+  top: 10px;
+}
+
+.Dashboard-user {
+  background-image: url('/ressources/images/background.png');
+  font-family: 'Montserrat', sans-serif;
+
+  .alert-welcome-dashboard-user {
+    position: fixed;
+    z-index: 999;
+    width: 50%;
+    text-align: center;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .type-dashboard-user {
+    @extend %position-absolute;
+    left: 20px;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .btn-disconnect-dashboard-user {
+    @extend %position-absolute;
+    right: 20px;
+  }
+
+  .container-title-dashboard-user {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+
+    .title-dashboard-user {
+      color: #fff;
+      font-size: 3.3rem;
+    }
+  }
+
+  .row-dashboard-user {
+    margin: 5% 7% 0 7%;
+  }
+}

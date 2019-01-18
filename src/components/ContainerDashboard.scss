@@ -1,0 +1,45 @@
+.Container-dashboard {
+  color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0 !important;
+
+  .btn-delete-container-dashboard {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    z-index: 999;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+  }
+
+  .container-title-container-dashboard {
+    text-align: center;
+    background-color: rgb(190, 3, 3);
+
+    .title-container-dashboard {
+      margin: 0;
+      padding: 7px 0 7px 0;
+    }
+  }
+  
+  .body-container-dashboard {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 5rem;
+    text-align: center;
+    min-height: 175px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .btn-add-container-dashboard {
+      background-color: transparent;
+      padding: 0;
+      font-size: 5rem;
+      color: rgb(0, 163, 0);
+      border: none;
+    }
+  }
+}

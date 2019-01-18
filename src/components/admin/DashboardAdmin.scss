@@ -1,0 +1,47 @@
+%position-absolute {
+  position: absolute;
+  top: 10px;
+}
+
+.Dashboard-admin {
+  background-image: url('/ressources/images/background.png');
+  font-family: 'Montserrat', sans-serif;
+
+  .alert-welcome-dashboard-admin {
+    position: fixed;
+    z-index: 999;
+    width: 50%;
+    text-align: center;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .type-dashboard-admin {
+    @extend %position-absolute;
+    left: 20px;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .btn-disconnect-dashboard-admin {
+    @extend %position-absolute;
+    right: 20px;
+  }
+
+  .container-title-dashboard-admin {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+
+    .title-dashboard-admin {
+      color: #fff;
+      font-size: 3.3rem;
+    }
+  }
+
+  .row-dashboard-admin {
+    margin: 5% 7% 0 7%;
+  }
+}
